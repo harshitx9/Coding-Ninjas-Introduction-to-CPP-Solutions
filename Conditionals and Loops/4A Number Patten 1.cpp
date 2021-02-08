@@ -6,11 +6,9 @@ int main() {
     cin>>n;
     int i=1;
     while(i<=n){
-        int val=i;
         int j=1;
         while(j<=i){
-            cout<<val;
-            val++;
+            cout<<i+j-1;
             j++;
         }
         cout<<endl;
